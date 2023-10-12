@@ -1,0 +1,1015 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background: #023b6d;
+    height: 30px;
+    width: 100%;
+}
+.logo{
+    height: 25px;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+}
+.head-icon{
+    color: white;
+    position: relative;
+    left: 210px;
+    top: 5px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.head-downicon{
+    position: relative;
+    right: 10px;
+}
+.dev-head{
+    font-weight: 700;
+    color: #fff;
+    margin: -2px 10px 0 10px;
+    font-size: 16px;
+    position: absolute;
+    left: 700px;
+    top: 5px;
+    font-family: system-ui;
+    text-transform: capitalize;
+
+}
+.download{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    right: 1px;
+    font-family: system-ui;
+    top: 0px;
+    background: #00a6eb;
+    height: 30px;
+    width: 180px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.main-head{
+    background-image: url(./hero-bg-dev.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.container{
+    background: linear-gradient(45deg, black, transparent);
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+}
+.fa-bars{
+    color: white;
+    display: none!important;
+}
+.dev-lo{
+    margin: 0px;
+}
+.folio-lo{
+    text-decoration: none;
+    color:#fff;
+    position: absolute;
+    left: 100px;
+    font-family: 'Poppins', sans-serif;
+    top: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.li-head{
+    color:#fff;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    left: 700px;
+    top: 30px;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+.is-ul{
+    background:white;
+    height: 150px;
+    width: 140px;
+    list-style: none;
+    line-height: 35px;
+    padding-left: 5px;
+    color: black;
+    display: none;
+    position: absolute;
+}
+.drop-item:hover .is-ul{
+    display:block;
+} 
+.name{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: sans-serif;
+    margin-top: 170px;
+
+}
+.job{
+    color: #fff;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    position: relative;
+    top: 30px;
+    left: 600px;
+}
+.about-sec{
+    background: ghostwhite;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    background-color: #fff;
+    height: 600px;
+    width: 85%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 70px;
+    left: 120px;
+}
+ .about-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+}
+.ab-lt{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    font-family: system-ui;
+}
+.ab-del{
+    color: #4e4e4e;
+    font-family: system-ui;
+}
+.lt-1{
+    
+    position: absolute;
+    top: 60px;
+    left: 310px;
+}
+.lt-2{
+    
+    position: absolute;
+    top: 100px;
+    left: 310px;
+}
+.lt-3{
+    
+    position: absolute;
+    top: 140px;
+    left: 310px;
+}
+.lt-4{
+    
+    position: absolute;
+    top: 180px;
+    left: 310px;
+}
+.Skill{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-family: system-ui;
+    position: absolute;
+    top: 240px;
+    left: 45px;
+}
+.ht-per{
+    color: #4e4e4e;
+    font-family: system-ui;
+    position: absolute;
+    top: 295px;
+    left: 45px;
+}
+.w3-blue{
+    height:12px;
+    width:85%  
+}
+.w3-border{
+    width: 600px;
+    position: relative;
+    top: 330px;
+    left: 45px;
+}
+.w3-blue{
+    height:12px;
+    width:85% 
+}
+.prograss{
+    position: relative;
+    top: 50px;
+}
+.prograss-1{
+    position: relative;
+    top: 100px;
+}
+.prograss-2{
+    position: relative;
+    top: 150px;
+}
+.css2{
+    width: 75%;
+}
+.php2{
+    width: 50%;
+}
+.js2{
+    width: 90%;
+}
+.abt-me{
+    font-size: 2rem;
+    font-family: system-ui;
+    font-weight: 670;
+    position: relative;
+    left: 670px;
+    bottom: 10px;
+}
+.del-lt1{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+    font-family: system-ui;
+    width: 42%;
+    position: relative;
+    left: 670px;
+    line-height: 32px;
+    top: 10px;
+}
+.del-lt2{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+    font-family: system-ui;
+    width: 42%;
+    position: relative;
+    left: 670px;
+    top: 35px;
+    line-height: 32px;
+}.del-lt3{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+    font-family: system-ui;
+    width: 42%;
+    position: relative;
+    left: 670px;
+    top: 55px;
+    line-height: 32px;
+}
+.serv{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Poppins';
+
+}
+.ser-del{
+    color: #4e4e4e;
+    text-align: center;
+    font-family: 'Poppins';
+}
+.service-sec{
+    background: ghostwhite;
+    height: 185vh;
+    width: 100%;
+}
+.topic{
+   position: relative;
+   top: 20px;
+}
+.box-ser{
+    height: 330px;
+    width: 28%;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.boxes-ser{
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+.ser-icon{
+    position: absolute;
+    top: 20px;
+    font-size: 40px;
+    left: 22px;
+    color: #1e1e1e;
+}
+.round{
+    background-color: white;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 55px;
+    margin-top: 40px;
+    margin-left: 160px;
+    border: 8px solid dodgerblue;
+}
+.box-ser:hover .ser-icon{
+    color: white;
+}
+.box-ser:hover .round{
+    background-color: #0078ff;
+    border: 8px solid paleturquoise;
+}
+.boxes-ser h2{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e1e1e;
+    font-weight: 500;
+}
+.boxes-ser p{
+    color: #4e4e4e;
+    text-align: center;
+    width: 93%;
+}
+.round-del{
+    margin-top: 155px;
+}
+.ser-img{
+    background-image: url(./dev2.jpg);
+    height: 400px;
+    width: 100%;
+    margin-top: 50PX;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.trpnt{
+    background: linear-gradient(0deg, #0078ff, transparent);
+    height: 400px;
+    width: 100%;
+    
+}
+.trp-icon{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.ser-bck{
+    background: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    display: inline-block;
+    border: 10px solid aliceblue;
+}
+.details{
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+.no{
+    margin-left: 15px;
+    color: aliceblue;
+}
+.ser-totaldel{
+    color: aliceblue;
+    position: relative;
+    right: 15px;
+}
+.port-sec{
+    background: ghostwhite;
+    height: 150vh;
+    width: 100%;
+}
+.port-box{
+    border-radius: 0px;
+    height: 400px;
+    margin-top: 30px;
+}
+.port-img-wrk:hover{
+    transition: 1s ease-out;
+    cursor: pointer;
+}
+.port-icon{
+    color: #0078ff;
+    position: relative;
+    left: 180px;
+    font-size: 40px;
+    bottom: 15px;
+}
+.port-img-wrk{
+    height: 300px;
+    width: 100%;
+}
+.lorem{
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    position: relative;
+    right: 110px;
+}
+.extra{
+    right: 125px;
+}
+.web{
+    color: #4e4e4e;
+    font-size: 0.8rem;
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+}
+.web::before{
+    content: 'Web Design';
+    color: #0078ff;
+}
+
+/* Mobile device - 769px-1024px */
+@media (min-width:769px) and (max-width:1024px){
+    .logo{
+        display: inline-block;
+    }
+    .head-icon{
+        display: none !important;
+    }
+    .dev-head{
+        position: absolute;
+        left: 340px;
+        top: 5px;
+    }
+    .head-downicon{
+        display: inline-block !important;
+    }
+    .fa-bars{
+        display: inline-block !important;
+        position: absolute;
+        top: 30px;
+        font-size: 25px;
+        right: 40px;
+    }
+    .container{
+        position: sticky;
+        top: 1px;
+        z-index: 1;
+    }
+    .ul-head{
+        display: none;
+    }
+    .folio-lo{
+        left: 10px;
+    }
+    .name{
+        font-weight: 600;
+        font-size: 4.5rem;
+        position: absolute;
+        top: 240px;
+        width: 90%;
+        left: 20px;
+    }
+    .job{
+        left: 275px;
+        top: 510px;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .box{
+        left: 10px;
+        width: 94%;
+        height: 80vh;
+    }
+    .about-img{
+        left: 50px;
+        height: 110px;
+        width: 110px;
+    }
+    .about-sec{
+        height: 100vh;
+    }
+    .lt-1{
+        position: absolute;
+        top: 50px;
+        left: 170px;
+        width: 15%;
+    }
+    .lt-2{
+        position: absolute;
+        top: 110px;
+        left: 170px;
+        width: 16%;
+    }
+    .lt-3{
+        position: absolute;
+        top: 170px;
+        left: 170px;
+        width: 15%;
+    }
+    .lt-4{
+        position: absolute;
+        top: 230px;
+        left: 170px;
+        width: 18%;
+    }
+    .skill{
+        top: 290px;
+        left: 20px;
+        font-weight: 600;
+        color: #1e1e1e;
+        font-size: 1.1rem;
+    }
+    .ht-per{
+        left: 20px;
+        top: 350px;
+    }
+    .w3-border{
+        left: 20px;
+        top: 380px;
+        width: 42%;
+    }
+    .abt-me{
+        position: absolute;
+        left: 360px;
+        top: 40px;
+    }
+    .del-lt1{
+        position: absolute;
+        left: 360px;
+        top: 110px;
+        width: 37%;
+        line-height: 30px;
+    }
+    .del-lt2{
+        position: absolute;
+        left: 360px;
+        top: 370px;
+        width: 37%;
+        line-height: 30px;
+    }
+    .del-lt3{
+        position: absolute;
+        left: 360px;
+        top: 570px;
+        width: 37%;
+        line-height: 30px;
+    }
+    .box-ser{
+        display: inline-block;
+        width: 27%;
+        position: relative;
+        right: 60px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        bottom: 130px;
+        top: 50px;
+        height: 450px;
+    }
+    .round{
+        position: absolute;
+        right: 50px;
+        top: 0;
+    }
+    .round-del{
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    .boxes-ser p{
+        width: 95%;
+    }
+    
+    .service-sec{
+        height: 170vh;
+    }
+    .ser-img{
+        height: 450px;
+        width: 100%;
+        margin-top: 80px;
+        background-position: center;
+    }
+    .trpnt{
+        height: 450px;
+        width: 100%;
+    }
+    .details{
+        display: inline-block;
+        margin-left: 20px;
+        position: relative;
+        left: 50px;
+        margin-top: 0;
+        top: 120px;
+    }
+    .port-box{
+        top: 10px;
+        margin-bottom: 10px;
+        height: 350px;
+    }
+    .lorem{
+        position: absolute;
+        left: 0px;
+        right: 0;
+        width: 62%;
+    }
+    .web{
+        position: absolute;
+        top: 300px;
+        width: 70%;
+    }
+    .port-icon{
+        position: absolute;
+        left: 160px;
+    }
+    .port-img-wrk {
+        height: 230px;
+        width: 100%;
+    }
+    .port-sec{
+        background: ghostwhite;
+        height: 100vh;
+        width: 100%;  
+    }
+    }
+
+/* Mobile device - 481px-768px */
+@media (min-width:481px) and (max-width:768px){
+    .logo{
+        display: none;
+    }
+    .head-icon{
+        display: none !important;
+    }
+    .dev-head{
+        position: absolute;
+        left: 20px;
+        top: 5px;
+    }
+    .head-downicon{
+        display: none !important;
+    }
+    .fa-bars{
+        display: inline-block !important;
+        position: absolute;
+        left: 420px;
+        top: 30px;
+        font-size: 25px;
+    }
+    .container{
+        position: sticky;
+        top: 1px;
+        z-index: 1;
+    }
+    .ul-head{
+        display: none;
+    }
+    .folio-lo{
+        left: 10px;
+    }
+    .name{
+        font-weight: 600;
+        font-size: 3rem;
+        position: absolute;
+        top: 70px;
+        width: 95%;
+    }
+    .job{
+        left: 175px;
+        top: 280px;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .box{
+        left: 10px;
+        width: 94%;
+        height: 170vh;
+    }
+    .about-img{
+        left: 30px;
+    }
+    .about-sec{
+        height: 185vh;
+    }
+    .lt-1{
+        position: absolute;
+        top: 230px;
+        left: 20px;
+    }
+    .lt-2{
+        position: absolute;
+        top: 270px;
+        left: 20px;
+    }
+    .lt-3{
+        position: absolute;
+        top: 310px;
+        left: 20px;
+    }
+    .lt-4{
+        position: absolute;
+        top: 350px;
+        left: 20px;
+    }
+    .skill{
+        top: 380px;
+        left: 20px;
+        font-weight: 600;
+        color: #1e1e1e;
+        font-size: 1.1rem;
+    }
+    .ht-per{
+        left: 20px;
+        top: 430px;
+    }
+    .w3-border{
+        left: 20px;
+        top: 460px;
+        width: 90%;
+    }
+    .abt-me{
+        position: absolute;
+        left: 20px;
+        top: 690px;
+    }
+    .del-lt1{
+        position: absolute;
+        left: 20;
+        top: 770px;
+        width: 90%;
+        line-height: 30px;
+    }
+    .del-lt2{
+        position: absolute;
+        left: 20;
+        top: 940px;
+        width: 90%;
+        line-height: 30px;
+    }
+    .del-lt3{
+        position: absolute;
+        left: 20;
+        top: 1110px;
+        width: 90%;
+        line-height: 30px;
+    }
+    .box-ser{
+        display: block;
+        width: 95%;
+        position: relative;
+        right: 60px;
+        margin-left: 0;
+        margin-bottom: -100px;
+        bottom: 130px;
+    }
+    .round{
+        position: absolute;
+        right: 180px;
+        bottom: 210px;
+    }
+    .round-del{
+        position: relative;
+        top: 130px;
+    }
+    .boxes-ser p{
+        width: 95%;
+    }
+    
+    .service-sec{
+        height: 450vh;
+    }
+    .ser-img{
+        height: 920px;
+        width: 100%;
+        margin-top: 80px;
+        background-position: center;
+    }
+    .trpnt{
+        height: 920px;
+        width: 100%;
+    }
+    .details{
+        display: block;
+        margin-left: 0;
+        position: relative;
+        left: 185px;
+        margin-top: 0;
+        top: 100px;
+        margin-bottom: 20px;
+    }
+    .port-box{
+        top: 10px;
+        margin-bottom: 10px;
+    }
+    .lorem{
+        position: absolute;
+        left: 0px;
+        right: 250px;
+    }
+    .web{
+        position: absolute;
+        top: 340px;
+    }
+    .port-icon{
+        position: absolute;
+        left: 400px;
+    }
+    }
+
+/* Mobile device - 320px-480px */
+
+@media (min-width:320px) and (max-width:480px){
+.logo{
+    display: none;
+}
+.head-icon{
+    display: none !important;
+}
+.dev-head{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+.head-downicon{
+    display: none !important;
+}
+.fa-bars{
+    display: inline-block !important;
+    position: absolute;
+    left: 280px;
+    top: 30px;
+    font-size: 25px;
+}
+.container{
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+}
+.ul-head{
+    display: none;
+}
+.folio-lo{
+    left: 10px;
+}
+.name{
+    font-weight: 600;
+    font-size: 3rem;
+    position: absolute;
+    top: 0px;
+}
+.job{
+    left: 100px;
+    top: 200px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.box{
+    left: 10px;
+    width: 94%;
+    height: 320vh;
+}
+.about-img{
+    left: 30px;
+}
+.about-sec{
+    height: 350vh;
+}
+.lt-1{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+}
+.lt-2{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+}
+.lt-3{
+    position: absolute;
+    top: 310px;
+    left: 20px;
+}
+.lt-4{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+}
+.skill{
+    top: 380px;
+    left: 20px;
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.ht-per{
+    left: 20px;
+    top: 430px;
+}
+.w3-border{
+    left: 20px;
+    top: 460px;
+    width: 90%;
+}
+.abt-me{
+    position: absolute;
+    left: 20px;
+    top: 690px;
+}
+.del-lt1{
+    position: absolute;
+    left: 20;
+    top: 770px;
+    width: 80%;
+    line-height: 30px;
+}
+.del-lt2{
+    position: absolute;
+    left: 20;
+    top: 1060px;
+    width: 80%;
+    line-height: 30px;
+}
+.del-lt3{
+    position: absolute;
+    left: 20;
+    top: 1290px;
+    width: 80%;
+    line-height: 30px;
+}
+.box-ser{
+    display: block;
+    width: 95%;
+    position: relative;
+    right: 60px;
+    margin-left: 0;
+    margin-bottom: -100px;
+    bottom: 130px;
+}
+.round{
+    position: absolute;
+    right: 100px;
+    bottom: 210px;
+}
+.round-del{
+    position: relative;
+    top: 130px;
+}
+.service-sec{
+    height: 720vh;
+}
+.ser-img{
+    height: 920px;
+    width: 100%;
+    margin-top: 80px;
+    background-position: center;
+}
+.trpnt{
+    height: 920px;
+    width: 100%;
+}
+.details{
+    display: block;
+    margin-left: 0;
+    position: relative;
+    left: 120px;
+    margin-top: 0;
+    top: 100px;
+    margin-bottom: 20px;
+}
+.port-box{
+    top: 10px;
+    margin-bottom: 10px;
+}
+.lorem{
+    position: absolute;
+    left: 0px;
+}
+.web{
+    position: absolute;
+    top: 340px;
+}
+.port-icon{
+    position: absolute;
+    left: 250px;
+}
+}
